@@ -1,0 +1,185 @@
+/* ---------- FONTS ---------- */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+/* ---------- FONTS END ---------- */
+
+/* ---------- SCSS VARIABLES ---------- */
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$darkblue: hsl(234, 12%, 34%);
+$grayishblue: hsl(229, 6%, 66%);
+
+/* ---------- SCSS VARIABLES END---------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- TEXT ---------- */
+* {
+  font-size: 15px;
+}
+
+h1,
+h2,
+p {
+  font-family: "Poppins";
+}
+
+h1,
+h2 {
+  color: $darkblue;
+}
+
+h1 {
+  font-weight: 200;
+}
+h2 {
+  font-weight: 600;
+}
+p {
+  font-weight: 400;
+  color: $grayishblue;
+  font-size: 0.9rem;
+}
+
+header h2 {
+  margin-bottom: 15px;
+}
+
+header h1,
+header h2 {
+  font-size: 2.1rem;
+}
+
+.box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+/* ---------- TEXT END ---------- */
+
+/* ---------- HEADER ---------- */
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 80px auto 60px;
+}
+
+header p {
+  margin: 0 33%;
+}
+
+/* ---------- HEADER END ---------- */
+
+/* ---------- MAIN ---------- */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20px 0 20px;
+  flex: 0 0 330px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 5px 5px 10px 10px;
+  box-shadow: 1px 15px 20px -2px hsl(216, 53%, 88%);
+}
+
+.builder {
+  margin-bottom: 40px;
+}
+
+.icon {
+  margin-top: 40px;
+  align-self: flex-end;
+}
+
+.supervisor {
+  border-top: 4px solid $cyan;
+}
+
+.builder {
+  border-top: 4px solid $red;
+}
+
+.karma {
+  border-top: 4px solid $orange;
+}
+
+.calculator {
+  border-top: 4px solid $blue;
+}
+
+/* ---------- MAIN END ---------- */
+
+/* ---------- FOOTER ---------- */
+footer {
+  margin: 30px 0 10px 0;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.attribution a {
+  font-size: 0.8rem;
+  color: hsl(228, 45%, 44%);
+}
+
+/* ---------- FOOTER END ---------- */

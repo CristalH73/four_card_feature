@@ -1,0 +1,193 @@
+/* ---------- FONTS ---------- */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ---------- FONTS END ---------- */
+/* ---------- SCSS VARIABLES ---------- */
+/* ---------- SCSS VARIABLES END---------- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ---------- TEXT ---------- */
+* {
+  font-size: 15px;
+}
+
+h1,
+h2,
+p {
+  font-family: "Poppins";
+}
+
+h1,
+h2 {
+  color: #4c4e61;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  color: #a3a5ae;
+  font-size: 0.9rem;
+}
+
+header h2 {
+  margin-bottom: 15px;
+}
+
+header h1,
+header h2 {
+  font-size: 2.1rem;
+}
+
+.box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+/* ---------- TEXT END ---------- */
+/* ---------- HEADER ---------- */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 80px auto 60px;
+}
+
+header p {
+  margin: 0 33%;
+}
+
+/* ---------- HEADER END ---------- */
+/* ---------- MAIN ---------- */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 20px 0 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 330px;
+          flex: 0 0 330px;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  border-radius: 5px 5px 10px 10px;
+  -webkit-box-shadow: 1px 15px 20px -2px #d0ddf1;
+          box-shadow: 1px 15px 20px -2px #d0ddf1;
+}
+
+.builder {
+  margin-bottom: 40px;
+}
+
+.icon {
+  margin-top: 40px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.supervisor {
+  border-top: 4px solid #45d3d3;
+}
+
+.builder {
+  border-top: 4px solid #ea5353;
+}
+
+.karma {
+  border-top: 4px solid #fcaf4a;
+}
+
+.calculator {
+  border-top: 4px solid #549ef2;
+}
+
+/* ---------- MAIN END ---------- */
+/* ---------- FOOTER ---------- */
+footer {
+  margin: 30px 0 10px 0;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  font-size: 0.8rem;
+  color: #3e52a3;
+}
+
+/* ---------- FOOTER END ---------- */
+/*# sourceMappingURL=style.css.map */

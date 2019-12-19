@@ -13,26 +13,51 @@
     />
 
     <title>Frontend Mentor | Four card feature section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link href="./style.css" type="text/css" rel="stylesheet" />
   </head>
+
   <body>
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
+    <header>
+      <h1>Reliable, efficient delivery</h1>
+      <h2>Powered by Technology</h2>
+      <p>
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+    </header>
+
+    <main class="container">
+      <div class="column">
+        <div class="box supervisor">
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify project roadblocks</p>
+          <img class="icon" src="images/icon-supervisor.svg" />
+        </div>
+      </div>
+      <div class="column middle">
+        <div class="box builder">
+          <h2>Team Builder</h2>
+          <p>
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <img class="icon" src="images/icon-team-builder.svg" />
+        </div>
+        <div class="box karma">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <img class="icon" src="images/icon-karma.svg" />
+        </div>
+      </div>
+      <div class="column">
+        <div class="box calculator">
+          <h2>Calculator</h2>
+          <p>
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img class="icon" src="images/icon-calculator.svg" />
+        </div>
+      </div>
+    </main>
 
     <footer>
       <p class="attribution">
