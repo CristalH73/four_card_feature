@@ -170,7 +170,7 @@ header p {
 
 /* ---------- FOOTER ---------- */
 footer {
-  margin: 30px 0 10px 0;
+  margin: 40px 0 15px 0;
 }
 
 .attribution {
@@ -188,6 +188,10 @@ footer {
 
 /* TABLET SIZE */
 @media screen and (max-width: 1110px) {
+  header p {
+    margin: 0 25%;
+  }
+
   .middle {
     order: 1;
     flex-direction: row;
@@ -209,6 +213,9 @@ footer {
 
 /* MOBILE SIZE */
 @media screen and (max-width: 740px) {
+  header p {
+    margin: 0 10%;
+  }
   .middle {
     flex-direction: column;
   }
