@@ -192,7 +192,7 @@ footer {
 /* ---------- FOOTER END ---------- */
 /* ---------- MEDIA QUERIES ---------- */
 /* TABLET SIZE */
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1115px) {
   header p {
     margin: 0 25%;
   }
