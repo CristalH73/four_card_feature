@@ -183,3 +183,44 @@ footer {
 }
 
 /* ---------- FOOTER END ---------- */
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* TABLET SIZE */
+@media screen and (max-width: 1110px) {
+  .middle {
+    order: 1;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .middle .box {
+    width: 330px;
+  }
+
+  .karma {
+    margin-left: 40px;
+  }
+
+  .builder {
+    margin-bottom: 0;
+  }
+}
+
+/* MOBILE SIZE */
+@media screen and (max-width: 740px) {
+  .middle {
+    flex-direction: column;
+  }
+
+  .supervisor,
+  .builder {
+    margin-bottom: 40px;
+  }
+
+  .karma {
+    margin-left: 0;
+  }
+}
+
+/* ---------- MEDIA QUERIES END ---------- */
